@@ -162,8 +162,6 @@ public class HRAHome extends JFrame {
 					
 				}	
 			});
-			
-			
 		 
 		 setLayoutManager();
 		 setLocationAndSize();
@@ -178,6 +176,9 @@ public class HRAHome extends JFrame {
 	 
 	 public void setLayoutManager() {
 		    container.setLayout(null);
+	 }
+	 public void Logout() {
+			this.dispose();
 	 }
 	 public void setLocationAndSize() {
 		    lTitle.setBounds(46, 0, 500, 58);
@@ -207,7 +208,8 @@ public class HRAHome extends JFrame {
 			container.add(bLogout);
 			
 			JButton btnNewButton = new JButton("Logout");
-			btnNewButton.setBounds(139, 494, 200, 30);
+			btnNewButton.setBounds(139, 472, 200, 30);
 			getContentPane().add(btnNewButton);
 	 }
 }
+
