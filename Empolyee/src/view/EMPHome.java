@@ -103,6 +103,7 @@ public class EMPHome extends JFrame{
 	public void Logout() {
 		this.dispose();
 	}
+
 	public void setLocationAndSize() {
 		lTitle.setBounds(180,50,300,30);
 		bViewprofile.setBounds(100, 100, 300, 30);
@@ -127,3 +128,4 @@ public class EMPHome extends JFrame{
      }
 
 }
+
