@@ -132,7 +132,7 @@ public class LoginFrame extends JFrame{
 		tPassword.setBounds(250, 250, 150, 30);
 		//createAccountLabel.setBounds(200, 400, 100, 30);
 		bLogin.setBounds(100, 400, 100, 30);
-		bRegister.setBounds(200, 400, 100, 30);
+		bRegister.setBounds(285, 400, 100, 30);
 	}
 	public void addComponentsToContainer() {
 		container.add(lUserId);
@@ -152,3 +152,4 @@ public class LoginFrame extends JFrame{
 	}
 
 }
+
